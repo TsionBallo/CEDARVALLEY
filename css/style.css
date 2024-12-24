@@ -176,6 +176,18 @@ body {
 .logo-holder {
     margin-right: 20px;
 }
+@media (max-width: 768px) {
+    .content-holder {
+        flex-direction: column;
+    }
+    .contact-details {
+        flex-direction: column;
+    }
+    .contact-form,
+    .time-contact {
+        width: 100%;
+    }
+}
 
 
 
